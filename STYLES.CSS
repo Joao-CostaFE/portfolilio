@@ -1,0 +1,23 @@
+*{
+display: flex table-column;
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: blanchedalmond;
+
+}
+header,section{
+    background-color: aliceblue;
+}
+.Destaque{
+    font-weight: bolder;
+    font-size: 200%;
+}
+.imagens{
+    width: 500px;
+    height: 500px;
+    border: 20px solid burlywood;
+    box-sizing: border-box;
+    
+}

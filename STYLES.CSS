@@ -1,23 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Leckerli+One&family=Playwrite+GB+S:ital,wght@0,100;1,100&display=swap');
 *{
-display: flex table-column;
-margin: 0px;
-padding: 0px;
-}
-body{
-    background-color: blanchedalmond;
+    display: flex table-column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 11px;
+    }
+    body{
+        background-color: blanchedalmond;
+        height: 100vh;
+    }
+    header{
+        background-color: aliceblue;
+        margin: 10%;
+        font-size: 200%;
+        font-family: "Playwrite GB S", cursive;
+    }
+    .produtos__destaque{
+        font-weight: bolder;
+        font-size: 200%;
+    }
+    .produtos{
+        width: 1200px;
+    }
+    .imagens{
+        width: 60vh;
+        height: 60vh;
+        border: 20px solid burlywood;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+    .container{
+        font-size: 150%;
+        background-color: aliceblue;
+        margin: 10%;
+        border-radius: 5%;
+    }
+    h2{
+        font-size: 300%;
+    }
 
-}
-header,section{
-    background-color: aliceblue;
-}
-.Destaque{
-    font-weight: bolder;
-    font-size: 200%;
-}
-.imagens{
-    width: 500px;
-    height: 500px;
-    border: 20px solid burlywood;
-    box-sizing: border-box;
-    
+   .introducao{
+    font-family:"Borel", cursive;
+    font-weight: 100;
+   }
+   .botoes{
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   }
+   .botoes__style{
+    font-family: "Leckerli One", cursive;
+    background-color: #FFA38F;
+    padding: 30px,20px ;
+    border-radius: 50%;   
+    text-decoration: none;
+    color: black;
 }

@@ -1,39 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Leckerli+One&family=Playwrite+GB+S:ital,wght@0,100;1,100&display=swap');
 *{
     display: flex table-column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px;
     padding: 11px;
     }
     body{
-        background-color: blanchedalmond;
+        background-color: #B7E0FF;
         height: 100vh;
     }
-    header{
+    .cabecalho{
+        display: flex;
         background-color: aliceblue;
-        margin: 10%;
-        font-size: 200%;
+        margin: 5%;
+        font-size: 100%;
         font-family: "Playwrite GB S", cursive;
+        font-weight: 600;
+        border-radius:  10px;   
+    }
+    .cabecalho__menu__link{
+        justify-content: space-between;
+        margin: 200px;
+        
+    }
+    .cabecalho__menu__link:hover{
+        border:ridge black 1px;
+        border-radius: 16px;
+        background-color: #E4E0E1;
+        box-shadow: 10px 10px 110px black;
     }
     .produtos__destaque{
         font-weight: bolder;
         font-size: 200%;
+        
     }
     .produtos{
         width: 1200px;
     }
     .imagens{
+        padding:  0px;
         width: 60vh;
         height: 60vh;
-        border: 20px solid burlywood;
+        border: 20px solid #FFF5CD;
         border-radius: 50%;
         box-sizing: border-box;
+    }
+    h1{
+        display: flex;
+        font-family: "Playwrite GB S", cursive;
+        font-size: 400%;
+        padding: 100px;
+        text-align: center;
+        
     }
     .container{
         font-size: 150%;
         background-color: aliceblue;
         margin: 10%;
         border-radius: 5%;
+        
     }
     h2{
         font-size: 300%;
@@ -43,16 +68,34 @@
     font-family:"Borel", cursive;
     font-weight: 100;
    }
-   .botoes{
+   .rodape{
+    background-color: #7AB2D3;
     display: flex;
-    justify-content: space-evenly;
-   align-items: center;
+    flex-direction: row;
+    justify-content: stretch;
+   border-radius: 20px;
+   gap: 20px;
    }
-   .botoes__style{
+   .rodape__bottom{
+    display: flex;
     font-family: "Leckerli One", cursive;
-    background-color: #FFA38F;
+    background-color: #FFCFB3;
     padding: 30px,20px ;
-    border-radius: 50%;   
+    border-radius: 50%;
+    border: 2px solid black;   
     text-decoration: none;
     color: black;
+    flex-direction: row;
+    align-items: center;
 }
+.rodape__subtitulo{
+    font-family:"Leckerli One", cursive;
+    font-weight: 100;
+}
+.rodape__bottom__img{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
